@@ -23,7 +23,7 @@ public class basicdatatypes{
          char character1 = '爪';
          char character2 = '哇';
          //一眼顶针，鉴定为真
-         boolean judgment = true;
+         boolean condition = true;
          //printing test
          System.out.println(number1);
          System.out.println(number2);
@@ -33,6 +33,6 @@ public class basicdatatypes{
          System.out.println(number6);
          System.out.println(character1);
          System.out.println(character2);
-         System.out.println(judgment);
+         System.out.println(condition);
      }
 }
