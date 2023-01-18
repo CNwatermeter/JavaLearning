@@ -1,10 +1,14 @@
 ## Keywords 关键字
 
-### class
+### class 类
 
 用于创建/定义一个类，类是Java最基本的组成单元
 
 public class HelloWorld {}
+
+### Scanner
+
+读取输入的内容
 
 ## Literal 字面量
 
@@ -26,9 +30,12 @@ Null 空类型：一个特殊的值 null
 
 变量的定义格式：数据类型 变量名 = 数据值；
 
-int：存储整数
+## 项目结构
 
-double：存储浮点数
+- Project 项目
+- Module 模块
+- Package 包
+- Class 类
 
 
 

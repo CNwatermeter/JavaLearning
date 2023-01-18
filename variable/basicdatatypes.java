@@ -22,6 +22,7 @@ public class basicdatatypes{
          double number6 = 6.28;
          char character1 = '爪';
          char character2 = '哇';
+         //boolean: can have the value of true or false
          //一眼顶针，鉴定为真
          boolean condition = true;
          //printing test
