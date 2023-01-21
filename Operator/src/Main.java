@@ -20,7 +20,7 @@ public class Main {
         System.out.println(num2); //implicit conversion: int >> double
         byte num3 = 10, num4 = 10;
         System.out.println(num3 + num4); //byte >> int
-        //if variable type below int, it will be converted to int initially
+        //if variable type below int, it will be converted to int automatically
         char cha1 = 'A';
         System.out.println(cha1); //char
         System.out.println(cha1 + 1); //char >> int
@@ -52,5 +52,28 @@ public class Main {
         //add first, use later
         System.out.println(num7); //10
         System.out.println(num1); //10
+
+        System.out.println("The fifth test:"); //assignment operator
+        int num8 = 2, num9 = 3;
+        num8 += num9; //it's just like: num8 = num8 + num9, but shorter
+        System.out.println(num8); //5
+        num8 -= num9;
+        System.out.println(num8); //2
+        num9 /= num8;
+        System.out.println(num9); //1
+        num9 %= num8;
+        System.out.println(num9); //1
+        short num10 = 1;
+        num10 += 1;
+        //not similar with line 58, it's equal to: num10 = (short)(num10 + 1)
+        //on the second test, we learned about implicit conversion
+        //but this is some different, because it's includes an explicit conversion
+        System.out.println(num10);
+
+        System.out.println("The sixth test:");
+        boolean jud;
+        jud = num8 == num9; // all outcomes are boolean, true or false
+        System.out.println(jud);
+        System.out.println(num8 >= num9);
     }
 }
