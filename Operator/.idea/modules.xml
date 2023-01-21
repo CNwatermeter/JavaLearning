@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompareHeights/CompareHeights.iml" filepath="$PROJECT_DIR$/CompareHeights/CompareHeights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumberSix/NumberSix.iml" filepath="$PROJECT_DIR$/NumberSix/NumberSix.iml" />
       <module fileurl="file://$PROJECT_DIR$/NumericalSplitting/NumericalSplitting.iml" filepath="$PROJECT_DIR$/NumericalSplitting/NumericalSplitting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operator.iml" filepath="$PROJECT_DIR$/Operator.iml" />
     </modules>

@@ -1,7 +1,5 @@
 /**An operator is a symbol or a set of symbols that represents a specific
- * operation or action in java
- * Arithmetic operators: '+' '-' '*' '/' '%'
- * */
+ * operation or action in java */
 public class Main {
     public static void main(String[] args) {
         System.out.println("The first test:");
@@ -70,10 +68,37 @@ public class Main {
         //but this is some different, because it's includes an explicit conversion
         System.out.println(num10);
 
-        System.out.println("The sixth test:");
+        System.out.println("The sixth test:"); //comparison operators
         boolean jud;
-        jud = num8 == num9; // all outcomes are boolean, true or false
+        jud = num8 == num9; //all outcomes are boolean, true or false
         System.out.println(jud);
         System.out.println(num8 >= num9);
+
+        System.out.println("The seventh test:"); // logic operators
+        System.out.println(true & true); //'&' means 'and'
+        System.out.println(false & true);
+        System.out.println(false & false);
+        System.out.println(true | true); //'|' means 'or'
+        System.out.println(false | true);
+        System.out.println(false | false);
+        System.out.println(false ^ true);
+        //if both are different, it will be true, in addition it is named XOR
+        System.out.println(!true); //'!' means 'not'
+        System.out.println(!false);
+        System.out.println(false && true);
+        //the short-circuit evaluation can improve performance of program,
+        //though the ultimate value can not be changed
+        //if application find that the first value can define the outcome
+        //it will be ended abruptly, and output directly
+        //it's important to note that short-circuit only has two types && and ||
+        //you can use assignment operator to verify it
+        //the last but not least: we generally use '&&', '||' and '!'
+
+        System.out.println("The eighth test:"); //ternary operators
+        //the syntax: condition ? valueIfTrue : valueIfFalse;
+        //a ternary operator must be used in program, as if not IDEA will have problem
+        System.out.println(10 < 20 ? 1 : 2); //true
+        System.out.println(10 > 20 ? 1 : 2); //false
+
     }
 }
