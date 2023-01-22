@@ -15,7 +15,9 @@ public class Main {
         System.out.println("The second test:");
         int num1 = 10;
         double num2 = num1;
-        System.out.println(num2); //implicit conversion: int >> double
+        System.out.println(num2);
+        //implicit conversion: int >> double
+        //in fact, it's to add some zero behind two's implement code
         byte num3 = 10, num4 = 10;
         System.out.println(num3 + num4); //byte >> int
         //if variable type below int, it will be converted to int automatically
@@ -23,7 +25,11 @@ public class Main {
         System.out.println(cha1); //char
         System.out.println(cha1 + 1); //char >> int
         //in ASCII value of 'A' is 65 and 'B' is 66
-        double num5 = (double) num1;//explicit conversion: int >> double
+        double num5 = (double) num1;
+        //explicit conversion: int >> double
+        //it's to add or minus figure behind two's implement code
+        //so this process could change the positive and negative value
+        //such as 0000 0000 1100 1000 >> 1100 1000, namely short 200 >> byte -56
         System.out.println(num5);
         byte num6 = (byte)(num3 + num4); //byte >> int >> byte
         System.out.println(num6);
@@ -74,7 +80,7 @@ public class Main {
         System.out.println(jud);
         System.out.println(num8 >= num9);
 
-        System.out.println("The seventh test:"); // logic operators
+        System.out.println("The seventh test:"); //logic operators
         System.out.println(true & true); //'&' means 'and'
         System.out.println(false & true);
         System.out.println(false & false);
@@ -100,5 +106,25 @@ public class Main {
         System.out.println(10 < 20 ? 1 : 2); //true
         System.out.println(10 > 20 ? 1 : 2); //false
 
+        System.out.println("The tenth test:"); //logic operator in figure
+        int num11 = 200, num12 = 10;
+        System.out.println(num11 & num12);
+        // num11 ~ 0000 1100 1000, namely 200
+        // num12 ~ 0000 0000 1010, namely 10
+        // outcome 0000 0000 1000, namely 8
+        System.out.println(num11 | num12);
+        // num11 ~ 0000 1100 1000, namely 200
+        // num12 ~ 0000 0000 1010, namely 10
+        // outcome 0000 1100 1000, namely 200
+        System.out.println(num11 << 2);
+        // shift left 2 bit, and add 0 in front
+        // num11 ~ 0000 1100 1000, namely 200
+        // outcome 0011 0010 0000, namely 800 = 200 * 2 * 2
+        System.out.println(num12 >> 2);
+        // shift right 2 bit, if it's a negative number, add 1 in front
+        // num12 ~ 0000 0000 1010, namely 10
+        // outcome 0000 0000 0010, namely 2
+        System.out.println(num12 >>> 2);
+        // no symbol shift right, add 0 in front whatever negative or positive
     }
 }

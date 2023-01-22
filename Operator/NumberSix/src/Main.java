@@ -15,7 +15,7 @@ public class Main {
         //input two integers
         boolean judge; //define a variable
         judge = (num1 == 6) || (num2 == 6) || ((num1 + num2) % 6 == 0);
-        //judgement, if only one of three comparison is true, the ultimate value is true
+        //judgement, if one of three comparison is true, the ultimate value is true
         System.out.println(judge);
     }
 }
