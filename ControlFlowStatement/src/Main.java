@@ -22,7 +22,23 @@ public class Main {
             System.out.println("No.");
         }
         //sequential execution
-
-
+        switch(num1){
+            case 9: //value behind case mustn't be a variable
+                System.out.println("9");
+                break;
+                //break out, if you don't use break, program will execute sequentially
+                //it may rouse some issue, so we use it generally
+            case 10:
+                System.out.println("10");
+                break;
+            case 11:
+                System.out.println("11");
+                break;
+            default: //if none of these match
+                System.out.println("Not 9, 10 or 11");
+                break;
+        }
+        //switch-case
+        
     }
 }
