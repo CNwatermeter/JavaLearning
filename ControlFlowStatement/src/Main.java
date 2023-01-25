@@ -6,9 +6,10 @@ import java.util.Scanner;
  * Jump statements (break, continue, return) */
 public class Main {
     public static void main(String[] args) {
+        /*Conditional statements*/
         System.out.println("Whether the number you type is bigger than 10?");
         Scanner scaNum = new Scanner(System.in);
-        int num1 = scaNum.nextInt();
+        int num1 = 9;//scaNum.nextInt();
         if(num1 > 10){ //if true, then execute the code
             System.out.println("Yes.");
         }
@@ -46,7 +47,50 @@ public class Main {
             case 11 -> System.out.println("11");
             default -> System.out.println("Not 9, 10 or 11");
         }
+        switch (num1){
+            case 1,2,3,4,5 -> System.out.println("1~5"); //use comma to choose several num
+            case 6,7,8,9,10 -> System.out.println("6~10");
+        }
 
+        /*Loops*/
+        for(int num2 = 1; num2 <= 5; num2++){ //use num2 to control loops' times
+            System.out.println("HelloWorld!");
+        }
+        System.out.println("-----");
+        for(int num2 = 1; num2 <= 5; num2++){ //print 1~5
+            System.out.println(num2);
+        }
+        System.out.println("-----");
+        for(int num2 = 5; num2 >= 1; num2--){ //print 5~1
+            System.out.println(num2);
+        }
+        num1 = 0; //a variable is effective only in its brace
+        for(int num2 = 1; num2 <= 5; num2++){
+            num1 += num2;
+            if(num2 == 5)System.out.println(num1);
+        }
+        System.out.println("-----");
+        { /*sum of odds in 1~100*/
+            num1 = 0;
+            int num2 = 1;
+            for (; num2 <= 100; num2++) {
+                if (num2 % 2 == 0) num1 += num2;
+            }
+            System.out.println(num1);
+        }
+        { /*sum of odds in 1~100*/
+            num1 = 0;
+            int num2 = 1;
+            while (num2 <= 100) {
+                if (num2 % 2 == 0) num1 += num2;
+                num2++;
+            }
+            System.out.println(num1);
+        }
+        //for and while both are identical in use
+        //but if you know how many loops you need, usually use for
+        //in opposite, usually use while
+        /*Jump statements*/
 
     }
 }

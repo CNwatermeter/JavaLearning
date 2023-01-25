@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ControlFlowStatement.iml" filepath="$PROJECT_DIR$/ControlFlowStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EverestPaperFolding/EverestPaperFolding.iml" filepath="$PROJECT_DIR$/EverestPaperFolding/EverestPaperFolding.iml" />
       <module fileurl="file://$PROJECT_DIR$/MerchandisePayment/MerchandisePayment.iml" filepath="$PROJECT_DIR$/MerchandisePayment/MerchandisePayment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Statistics/Statistics.iml" filepath="$PROJECT_DIR$/Statistics/Statistics.iml" />
     </modules>
   </component>
 </project>

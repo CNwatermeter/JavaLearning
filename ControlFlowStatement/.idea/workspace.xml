@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7d48d5e9-3a26-440a-a0bd-d8b7ba50aa76" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MerchandisePayment/MerchandisePayment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Statistics/Statistics.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +46,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +61,7 @@
       <updated>1674393504481</updated>
       <workItem from="1674393505724" duration="5941000" />
       <workItem from="1674573711510" duration="189000" />
-      <workItem from="1674573975929" duration="3335000" />
+      <workItem from="1674573975929" duration="7432000" />
     </task>
     <servers />
   </component>
