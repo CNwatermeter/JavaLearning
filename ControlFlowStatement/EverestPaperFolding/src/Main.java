@@ -10,6 +10,6 @@ public class Main {
             paper *= 2;
             fold ++;
         }
-        System.out.println("Need to fold " + fold + " times");
+        System.out.println("Need to fold " + fold + " times.");
     }
 }
