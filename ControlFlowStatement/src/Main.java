@@ -21,8 +21,8 @@ public class Main {
         }else{ //if false
             System.out.println("No.");
         }
-        //sequential execution
-        switch(num1){
+
+        switch(num1){ //switch-case, sequential execution
             case 9: //value behind case mustn't be a variable
                 System.out.println("9");
                 break;
@@ -34,11 +34,19 @@ public class Main {
             case 11:
                 System.out.println("11");
                 break;
-            default: //if none of these match
+            default: //if none of these match, then execute default
                 System.out.println("Not 9, 10 or 11");
                 break;
         }
-        //switch-case
-        
+        switch (num1){ //new feature in JDK12+
+            case 9 -> { //break out automatically
+                System.out.println("9");
+            }
+            case 10 -> System.out.println("10"); //if only have one line code
+            case 11 -> System.out.println("11");
+            default -> System.out.println("Not 9, 10 or 11");
+        }
+
+
     }
 }
