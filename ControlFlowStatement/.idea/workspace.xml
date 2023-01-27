@@ -14,6 +14,7 @@
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EverestPaperFolding/EverestPaperFolding.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MerchandisePayment/MerchandisePayment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Statistics/Statistics.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -62,7 +63,7 @@
       <updated>1674393504481</updated>
       <workItem from="1674393505724" duration="5941000" />
       <workItem from="1674573711510" duration="189000" />
-      <workItem from="1674573975929" duration="8705000" />
+      <workItem from="1674573975929" duration="15121000" />
     </task>
     <servers />
   </component>
