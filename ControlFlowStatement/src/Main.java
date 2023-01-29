@@ -90,7 +90,31 @@ public class Main {
         //for and while both are identical in use
         //but if you know how many loops you need, usually use for
         //in opposite, usually use while
-        /*Jump statements*/
 
+        /*Jump statements*/
+        //infinite loops:
+        //for (;;){}
+        //while (true){}
+        //do{}while (true)
+        //if we use infinite loops, we need to set a jump statements to break out
+        for (int num3 = 1; num3 <= 5; num3 ++){
+            if(num3 == 3){
+                continue; //close this loop, and continue the next loop
+            }
+            System.out.println("Number: " + num3);
+        }
+        for (int num3 = 1; num3 <= 5; num3 ++){
+            if(num3 == 3){
+                break; //close the whole loop
+            }
+            System.out.println("Number: " + num3);
+        }
+        System.out.println("Test statement 'return':");
+        for (int num3 = 1; num3 <= 5; num3 ++){
+            if(num3 == 3){
+                return; //close the whole loop
+            }
+            System.out.println("Number: " + num3);
+        }
     }
 }

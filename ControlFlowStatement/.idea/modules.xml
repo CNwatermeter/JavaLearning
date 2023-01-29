@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/EverestPaperFolding/EverestPaperFolding.iml" filepath="$PROJECT_DIR$/EverestPaperFolding/EverestPaperFolding.iml" />
       <module fileurl="file://$PROJECT_DIR$/MerchandisePayment/MerchandisePayment.iml" filepath="$PROJECT_DIR$/MerchandisePayment/MerchandisePayment.iml" />
       <module fileurl="file://$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" filepath="$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PassWhen7IsIncluded/PassWhen7IsIncluded.iml" filepath="$PROJECT_DIR$/PassWhen7IsIncluded/PassWhen7IsIncluded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" filepath="$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SquareRootFinding/SquareRootFinding.iml" filepath="$PROJECT_DIR$/SquareRootFinding/SquareRootFinding.iml" />
       <module fileurl="file://$PROJECT_DIR$/Statistics/Statistics.iml" filepath="$PROJECT_DIR$/Statistics/Statistics.iml" />
     </modules>
   </component>
