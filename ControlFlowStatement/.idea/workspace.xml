@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/MerchandisePayment/MerchandisePayment.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PassWhen7IsIncluded/PassWhen7IsIncluded.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimeNumber/PrimeNumber.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SquareRootFinding/SquareRootFinding.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Statistics/Statistics.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -25,6 +26,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,7 +40,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KgPxpCBjFOx7Fbe1P02hf5OTOV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,7 +75,7 @@
       <updated>1674393504481</updated>
       <workItem from="1674393505724" duration="5941000" />
       <workItem from="1674573711510" duration="189000" />
-      <workItem from="1674573975929" duration="23005000" />
+      <workItem from="1674573975929" duration="24556000" />
     </task>
     <servers />
   </component>
