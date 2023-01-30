@@ -40,7 +40,15 @@ public class Main {
         System.out.println(arr3[5]);
         //if we just know how many value we will store, we use dynamic initialization
         //but if we already know all value of variable, we use static initialization
-
-
+        int[] arr4 = {2, 3, 4, 5, 6};
+        int[] arr5 = arr1;
+        //two arrays can point to the same memory space
+        System.out.println(arr4); //[I@2f92e0f4
+        //so arr5 = arr1 namely arr5 = [I@2f92e0f4
+        //this process considering stack and heap
+        //arr4 on stack stores address
+        //then program use these address to find value on heap
+        //all codes use 'new' will be stored in stack
+        //int[] arr4 = {0}, namely int[] arr4 = new int[]{0}
     }
 }
