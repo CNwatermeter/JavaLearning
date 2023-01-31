@@ -14,6 +14,24 @@ public class Main {
 
         Traversal(CopyOfRange(arr, 1, 5)); //demo4
         Traversal(CopyOfRange(arr, 9, 9));
+
+        //memory structure
+        System.out.println(arr[0]); //arr[0] == 1
+        int[] arr2 = new int[arr.length];
+        arr2 = arr; //namely give address of arr to arr2
+        arr2[0] = 0; //so if we change the value of arr2
+        System.out.println(arr[0]);
+        //it actually changed the value of arr and arr2
+        //the cause is they use same address considering stacks and heaps
+        //if we change the value of arr in a method
+        //the main's arr also be changed
+        int num = 0;
+        Memory(arr, num); //arr[0] -> 10, num -> 10
+        System.out.println("arr[0]: " + arr[0]); //it is changed
+        System.out.println("num: " + num); //it will not be changed
+        //conclusion:
+        //if formal parameter transmits a value, actual parameter will not be changed
+        //but if formal parameter transmits an address, actual parameter will be changed
     }
     public static void Traversal(int[] arr){
         //traversal of arrays
@@ -51,5 +69,9 @@ public class Main {
             arrReturn[i2] = arr[i];
         }
         return arrReturn;
+    }
+    public static void Memory(int[] arr, int num){
+        arr[0] = 10;
+        num = 10;
     }
 }
