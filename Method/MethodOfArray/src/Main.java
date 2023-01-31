@@ -1,6 +1,5 @@
 import javax.xml.transform.Source;
 import java.net.PortUnreachableException;
-
 public class Main {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 9, 1, 4, 8, 3};
@@ -24,7 +23,7 @@ public class Main {
                 System.out.print(",");
             }
         }
-        System.out.println("");
+        System.out.println();
     }
     public static int Max(int[] arr){
         //get the max of arrays
