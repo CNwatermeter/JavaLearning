@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuyPlaneTickets/BuyPlaneTickets.iml" filepath="$PROJECT_DIR$/BuyPlaneTickets/BuyPlaneTickets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise1.iml" filepath="$PROJECT_DIR$/Exercise1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FindPrimeNumber/FindPrimeNumber.iml" filepath="$PROJECT_DIR$/FindPrimeNumber/FindPrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Score/Score.iml" filepath="$PROJECT_DIR$/Score/Score.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VerificationCode/VerificationCode.iml" filepath="$PROJECT_DIR$/VerificationCode/VerificationCode.iml" />
+    </modules>
+  </component>
+</project>
