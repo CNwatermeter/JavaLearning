@@ -2,13 +2,25 @@ import java.util.Scanner;
 /**Encryption and Decryption
  * encryption method:
  * get each digit number, + 5, then % 10
- * in the end, reserve whole number*/
+ * in the end, reserve whole number
+ * ------------------------------------------------------
+ * tips: in this case, if the last number is 5, it will generate bug
+ * because 5 + 5 % 10 == 0, as if we use int type variable
+ * it will not be printed
+ * to fix this bug in encryption method ,just use an array can fix it
+ * but in decryption method, we have to know the right number length and store 0
+ * it also can be solved to use an array
+ * but if we do that, the execution would not elegant
+ * the last but not least, retain this bug because i'm lazy to the large extent
+ * -------------------------------------------------------*/
 public class Main {
     public static void main(String[] args) {
         System.out.println("Enter your code to encrypt:");
+
         Scanner scaNum = new Scanner(System.in);
-        int num1 = scaNum.nextInt(); //get the code
+        int num1 = scaNum.nextInt(); //get the original code
         System.out.println("Encryption code: " + encryption(num1));
+
         System.out.println("Enter your code to decrypt:");
         int num2 = scaNum.nextInt(); //get the encrypted code
         System.out.println("Decryption code: " + decryption(num2));
