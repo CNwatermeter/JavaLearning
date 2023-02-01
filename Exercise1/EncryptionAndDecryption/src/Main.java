@@ -11,7 +11,7 @@ import java.util.Scanner;
  * but in decryption method, we have to know the right number length and store 0
  * it also can be solved to use an array
  * but if we do that, the execution would not elegant
- * the last but not least, retain this bug because i'm lazy to the large extent
+ * the last but not least, retain this bug just because I'm lazy to the large extent
  * -------------------------------------------------------*/
 public class Main {
     public static void main(String[] args) {
