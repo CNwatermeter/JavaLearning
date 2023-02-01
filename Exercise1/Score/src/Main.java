@@ -17,12 +17,14 @@ public class Main {
             sum += master[i];
         }
         sum = sum - max - min;
-        int ave = (int)(sum / 4);
+        int ave = (int)(sum / (master.length - 2));
         System.out.println(ave);
     }
 
     private static int getMin(int[] master) {
         int min = master[0];
+        //shift + fn + F6
+        //modify all name of this variable
         for (int i = 1; i < master.length; i++) {
             if (min > master[i]){
                 min = master[i];
