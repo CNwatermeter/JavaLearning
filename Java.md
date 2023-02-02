@@ -79,10 +79,47 @@ Null 空类型：一个特殊的值 null
 
 栈：方法运行时使用的内存，比如main方法运行，进入方法栈中执行
 
-堆：存储对象或者数组，new用来创建的，都存储在堆内存
+堆：存储对象或者数组，用new来创建的，都存储在堆内存
 
 方法区：存储可以运行的class文件
 
 本地方法栈：JVM在自用操作系统功能的时候使用，与开发无关
 
 寄存器：给CPU使用，与开发无关
+
+## IDEA快捷键
+
+```
+command + option + M
+自动抽取方法
+```
+
+```
+command + P
+查看方法的变量
+```
+
+```
+shift + fn + F6
+修改全部该变量的名称
+```
+
+```
+command + option + L
+自动格式化
+```
+
+```
+command + N
+快速生成Javabean
+```
+
+
+
+## 面向对象编程_类
+
+Encapsulation (封装): Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data within a single unit, or object. It provides a secure mechanism for protecting data from accidental modification or unauthorized access, while also making it easier to maintain and update the code.
+
+Inheritance (继承): Inheritance is a mechanism that allows you to create a new class based on an existing class. The new class is called a subclass, while the existing class is called the superclass. The subclass inherits all the attributes and behaviors of the superclass, and can add new attributes and behaviors, or override existing ones. Inheritance provides a way to reuse code and promote code reuse, reducing development time and maintenance costs.
+
+Polymorphism (多态): Polymorphism refers to the ability of an object to take on many forms. It enables you to write a single piece of code that can work with objects of different classes. This allows you to write generic code that can handle different cases dynamically, depending on the type of object being processed. Polymorphism is achieved through the use of method overriding and method overloading. It enables objects of different classes to be treated as objects of a common type, reducing the amount of code you need to write, and making it easier to maintain.
