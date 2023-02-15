@@ -1,7 +1,17 @@
 package StudentTest;
 
-/**
- *
+/**The Ultimate Object Array Workout
+ * Define an array of length 3. The array stores 1 to 3 student objects as initial data,
+ * each with different student number and name.
+ * Attributes of students: student number, name, age.
+ * Requirement 1: Add another student object and determine the uniqueness of the student
+ *                number when adding it.
+ * Requirement 2: After adding, iterate through all student information.
+ * Requirement 3: Delete student information by id
+ *                If it exists, the state is removed,
+ *                if it does not exist, then the deletion fails.
+ * Requirement 4: Iterate over all student information after deletion is complete.
+ * Requirement 5: Query the student whose id is "002", and if it exists, add 1 to his age.
  */
 public class StudentTest {
     public static void main(String[] args) {
@@ -19,7 +29,7 @@ public class StudentTest {
         int s5 = 005;
         //delete information
         int s6 = 002;
-        //fix information
+        //fix information, age + 1
 
         int index = getIndex(arr, s5);
         if (index != -1) {
