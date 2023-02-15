@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Operator/CompareHeights/CompareHeights.iml" filepath="$PROJECT_DIR$/Operator/CompareHeights/CompareHeights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlFlowStatement/ControlFlowStatement.iml" filepath="$PROJECT_DIR$/ControlFlowStatement/ControlFlowStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IdeaProject/IdeaProject.iml" filepath="$PROJECT_DIR$/IdeaProject/IdeaProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLearning.iml" filepath="$PROJECT_DIR$/JavaLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlFlowStatement/MerchandisePayment/MerchandisePayment.iml" filepath="$PROJECT_DIR$/ControlFlowStatement/MerchandisePayment/MerchandisePayment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operator/NumberSix/NumberSix.iml" filepath="$PROJECT_DIR$/Operator/NumberSix/NumberSix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operator/NumericalSplitting/NumericalSplitting.iml" filepath="$PROJECT_DIR$/Operator/NumericalSplitting/NumericalSplitting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operator/Operator.iml" filepath="$PROJECT_DIR$/Operator/Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IdeaProject/TheFirstModule/TheFirstModule.iml" filepath="$PROJECT_DIR$/IdeaProject/TheFirstModule/TheFirstModule.iml" />
+    </modules>
+  </component>
+</project>
