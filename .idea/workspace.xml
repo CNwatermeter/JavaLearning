@@ -2,18 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c20f8ec-978a-4f07-803f-a0733e746ba7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Arrays/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/ArraysTraversing/ArraysTraversing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/ControlFlowStatement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/EverestPaperFolding/EverestPaperFolding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/MerchandisePayment/MerchandisePayment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/PalindromeNumber/PalindromeNumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/PassWhen7IsIncluded/PassWhen7IsIncluded.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/PrimeNumber/PrimeNumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/SquareRootFinding/SquareRootFinding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControlFlowStatement/Statistics/Statistics.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ControlFlowStatement/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProject/IdeaProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProject/TheFirstModule/TheFirstModule.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/Exercise1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/Method.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/MethodOfArray/MethodOfArray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operator/NumberSix/NumberSix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Operator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Operator/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Operator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Operator/NumericalSplitting/NumericalSplitting.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Operator/Operator.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Operator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Operator/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +61,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ControlFlowStatement" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2KmJhA3GSS2QsYsBvfTNmCvfpGG" />
   <component name="ProjectViewState">
@@ -34,10 +73,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/watermeter/Desktop/JavaLearning",
+    "last_opened_file_path": "/Users/vincent/Desktop/JavaLearning",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674573940750</updated>
       <workItem from="1674573941876" duration="18000" />
+      <workItem from="1678012079389" duration="286000" />
     </task>
     <servers />
   </component>
