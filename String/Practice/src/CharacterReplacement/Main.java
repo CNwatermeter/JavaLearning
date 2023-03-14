@@ -11,6 +11,7 @@ public class Main {
         String oldStr = "AIASBSBHVAJDCQAQDA";
         String newStr = oldStr;
         String[] replacement = {"A", "B", "C" };
+        //use a 'database' to replace all the value we have to change
         for (int i = 0; i < replacement.length; i++) {
             newStr = newStr.replace(replacement[i], "*");
         }
