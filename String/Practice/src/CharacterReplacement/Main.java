@@ -9,6 +9,7 @@ package CharacterReplacement;
 public class Main {
     public static void main(String[] args) {
         String oldStr = "AIASBSBHVAJDCQAQDA";
+        //demo info
         String newStr = oldStr;
         String[] replacement = {"A", "B", "C" };
         //use a 'database' to replace all the value we have to change
